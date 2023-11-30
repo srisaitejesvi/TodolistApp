@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>To-Do List Application</h1>
+    </header>
+    <main>
+        <section id="task-input">
+            <form id="task-form">
+                <input type="text" id="task-description" placeholder="Enter task description" required>
+                <button type="submit">Add Task</button>
+            </form>
+        </section>
+        <section id="task-list">
+            <ul id="tasks">
+                <!-- Tasks will be dynamically added here -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 To-Do List Application. All rights reserved.</p>
+    </footer>
+
+    <script src="config.js"></script>
+    <script src="api.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+</button>
